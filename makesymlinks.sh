@@ -8,7 +8,7 @@
 
 dir=~/dot_files                    # dotfiles directory
 olddir=~/dot_files_old             # old dotfiles backup directory
-files="aliases bashrc"    # list of files/folders to symlink in homedir
+files="aliases bashrc ansicolor"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -29,3 +29,4 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+
