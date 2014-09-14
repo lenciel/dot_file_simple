@@ -1,0 +1,17 @@
+# vim7.3 > default vim
+PATH="/usr/local/bin:$PATH"
+
+# virtualenvwrapper
+export VIRTUALENV_DISTRIBUTE=true
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2.7
+export WORKON_HOME=/usr/local/pythonenv
+source /usr/local/bin/virtualenvwrapper.sh
+
+#pip download cache
+export PIP_DOWNLOAD_CACHE=/data/.pip-download-cache
+
+export SECRET_KEY="w3b@21tj&n2a=0-v-)*o2u7196#x9n^p@1f8z0(fg4k0_5+f=5)"
+# autojump
+[[ -s /etc/profile.d/autojump.zsh ]] && . /etc/profile.d/autojump.zsh
+
+

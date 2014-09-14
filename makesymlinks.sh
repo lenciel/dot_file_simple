@@ -8,7 +8,7 @@
 
 dir=~/dot_files                    # dotfiles directory
 olddir=~/dot_files_old             # old dotfiles backup directory
-files="aliases bashrc ansicolor"    # list of files/folders to symlink in homedir
+files="aliases bashrc private"    # list of files/folders to symlink in homedir
 
 ##########
 
