@@ -75,3 +75,7 @@ alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgree
 
 # Alias for apache
 alias eac="vi /etc/apache2/apache2.conf"
+
+# Alias for docker
+alias drmd="docker images -qf dangling=true | xargs docker rmi"
+alias drmo="docker ps -a | grep 'Exited' | awk '{print $1}' | xargs --no-run-if-empty sudo docker rm"
